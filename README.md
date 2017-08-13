@@ -41,7 +41,7 @@ yourfile.js
 ```
 requirejs(['duc'], function() {
 	duc.change(function(url) {
-        console.log(url);
-    });
+        	console.log(url);
+    	});
 });
 ```
