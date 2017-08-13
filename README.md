@@ -6,7 +6,7 @@ Package to detect if url has changed
 #### Install
 
 ```
-npm install duc
+$ npm install duc
 ```
 
 #### Tag script
@@ -44,4 +44,13 @@ requirejs(['duc'], function() {
         console.log(url);
     });
 });
+```
+
+#### Develop
+
+Run Grunt Watch and edit file (duc.js)[https://github.com/00F100/duc/blob/master/src/duc.js]
+
+```
+$ npm install
+$ node_modules/.bin/grunt watch
 ```
