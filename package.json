@@ -1,0 +1,35 @@
+{
+  "name": "duc",
+  "version": "1.0.0",
+  "description": "Package to detect if url has changed",
+  "main": "dist/duc.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/00F100/duc.git"
+  },
+  "keywords": [
+    "check",
+    "url",
+    "updated",
+    "update",
+    "change",
+    "browser",
+    "changed"
+  ],
+  "author": "João Moraes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/00F100/duc/issues"
+  },
+  "homepage": "https://github.com/00F100/duc#readme",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-uglify": "^0.11.1",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.0"
+  }
+}
