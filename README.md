@@ -48,7 +48,7 @@ requirejs(['duc'], function() {
 
 #### Develop
 
-Run Grunt Watch and edit file (duc.js)[https://github.com/00F100/duc/blob/master/src/duc.js]
+Run Grunt Watch and edit file [duc.js](https://github.com/00F100/duc/blob/master/src/duc.js)
 
 ```
 $ npm install
