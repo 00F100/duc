@@ -40,8 +40,8 @@ shim: {
 yourfile.js
 ```
 requirejs(['duc'], function() {
-	duc.change(function(url) {
-        	console.log(url);
-    	});
+    duc.change(function(url) {
+        console.log(url);
+    });
 });
 ```
