@@ -1,6 +1,6 @@
 {
   "name": "duc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Package to detect if url has changed",
   "main": "dist/duc.min.js",
   "scripts": {

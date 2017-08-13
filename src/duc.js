@@ -3,7 +3,7 @@ var duc = {
 	change: function(callback) {
 		var currentPage = window.location.href;
         clearInterval(this.interval);
-        this.interval = this.changeActionCapture(currentPage);
+        this.interval = this.changeActionCapture(callback, currentPage);
 	},
 	changeActionCapture: function(callback, currentPage) {
 		return setInterval(function() {
