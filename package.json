@@ -1,6 +1,6 @@
 {
   "name": "duc",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Package to detect if url has changed",
   "main": "dist/duc.min.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "changed"
   ],
   "author": "João Moraes",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/00F100/duc/issues"
   },

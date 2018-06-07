@@ -1,3 +1,8 @@
+/**
+ * Package to detect if url has change
+ *
+ * version: 1.0.5
+ */
 var duc = {
     interval: false,
     change: function(callback) {
