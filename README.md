@@ -65,13 +65,13 @@ $ node_modules/.bin/grunt watch
 
 #### Features
 
-- 1.2.0
+##### 1.2.0
 + Configure time to loop
 + Return current and last URL inside callback
 
-- 1.0.5
+##### 1.0.5
 + Add license
 
-- 1.0.0
+##### 1.0.0
 + Detect URL change
 + Execute callback
