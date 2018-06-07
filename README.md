@@ -1,4 +1,5 @@
 # duc
+
 Package to detect if url has changed
 
 ## Usage
@@ -16,11 +17,14 @@ Include tag
 <script src="dist/duc.min.js" type="text/javascript"></script>
 ```
 
-Example code
+#### How to use
 ```
-duc.change(function(url) {
-    console.log(url);
-});
+var looptime = 500; // ms
+var callback = function (currentPage, lastPage) {
+	console.log(lastPage);
+	console.log(currentPage);
+}
+duc.change(callback, looptime);
 ```
 
 #### Requirejs
@@ -40,9 +44,12 @@ shim: {
 yourfile.js
 ```
 requirejs(['duc'], function() {
-    duc.change(function(url) {
-        console.log(url);
-    });
+    var looptime = 500; // ms
+	var callback = function (currentPage, lastPage) {
+		console.log(lastPage);
+		console.log(currentPage);
+	}
+	duc.change(callback, looptime);
 });
 ```
 
@@ -54,3 +61,17 @@ Run Grunt Watch and edit file [duc.js](https://github.com/00F100/duc/blob/master
 $ npm install
 $ node_modules/.bin/grunt watch
 ```
+
+
+#### Features
+
+- 1.2.0
+-- Configure time to loop
+-- Return current and last URL inside callback
+
+- 1.0.5
+-- Add license
+
+- 1.0.0
+-- Detect URL change
+-- Execute callback
